@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    padding-bottom: 0.6em;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+section {
+    padding: 40px 20px;
+    padding-left: 13em;
+    padding-right: 13em;
+    margin: auto;
+}
+.photo-info {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    margin-bottom: 40px;
+}
+.photo-info img {
+    border-radius: 40%;
+    max-width: 250px;
+}
+.identite{
+    text-align: center;
+    font-size: larger;
+    padding-left: 3em;
+}
+#nom{
+    font-size: 1.3em;
+}
+.section-title {
+    font-size: 1.8rem;
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.grid_formation {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.card_formation {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 40em;
+}
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.card_skills {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0077b6;
+    color: white;
+}
+footer a {
+    color: #ffc300;
+    text-decoration: none;
+}
+
+
+
+
+div.text_grid{  /* Je crée un tableau pour les textes de deux colonnes, j'ajoute une police pour tous les textes. */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 4em;
+}
+.case1{  /* Je demande à ma case de prendre toute la largeur du tableau. */
+    grid-column: 1 / -1;
+}
+
+h2{  /* J'augmente la taille de mon titre et ajoute un espace en dessous. */
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+p.text_grid{  /* Je diminue la taille de mes textes et ajoute un espace en dessous et à droite. */
+    padding-bottom: 1em;
+    font-size: 0.8em;
+    padding-right: 1em;
+    max-width: 5em;
+}
+#formation{
+    background-color: #e9e9e9;
+}
+#experience{
+    background-color: #e9e9e9;
+}
+#projets{
+    background-color: #e9e9e9;
+}
+#fond{
+    background-color: #e9e9e9;
+}
+.icon{
+    width: 3em;
+}
+.icon_about{
+    width: 5em;
+}
+.reseaux{
+    display: flex;
+    justify-content: space-between;
+}
+
+#projets a{
+    text-decoration: none;
+}
+
+.milieu{
+    text-align: center;
+}
+
+.uel102{
+    width: 15em;
+}
+.uel104{
+    width: 20em;
+}
+section#joke{
+    background-color: #e9e9e9;
+}
